@@ -178,7 +178,7 @@ nav a:focus {
   padding: 0 6px;
 }
 .column img {
-  margin-top: 8px;
+  margin-top: 20px;
   vertical-align: middle;
   width: 100%;
 }
@@ -395,7 +395,7 @@ footer {
   padding: 20px;
   text-align: center;
   background-color: black;
-  margin-top: 20px;
+  margin: 20px;
 }
 
 footer h3 > span,
@@ -499,6 +499,9 @@ tr {
 
 
 @media screen and (max-width: 600px) {
+  .contact {
+    margin: 10px;
+  }
   .contact h1 {
     font-size: 2rem;
   }
